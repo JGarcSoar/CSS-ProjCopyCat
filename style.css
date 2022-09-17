@@ -1,0 +1,127 @@
+/* * {
+    outline: 1px solid gold;
+} */
+
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+div>h3,p {
+    text-align: left;
+    font-family: "Montserrat";
+    color: rgb(124, 124, 124);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-family: "Montserrat";
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal {
+    color: rgb(67, 66, 66);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    padding-top: 15px;
+}
+
+.link1 {
+    padding-top: 7px;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin-left: 1.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.logotext {
+    font-family: "Combo";
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 30ch;
+}
+
+a {
+    color: rgb(160, 160, 160);
+}
+
+.logolink {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#logo {
+    height: 48px;
+    margin-right: -85ch;
+}
+
+#logo2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 18vh;
+    margin-bottom: 2vh;
+    box-shadow: 0px 7px 10px #dcdcdc;
+}
+
+.container {
+    width: 700px;
+    background-color: #fbfbff;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px #dcdcdc;
+}
+
+h1 {
+    font-family: "Open Sans";
+    padding-bottom: 15px;
+}
+
+#firstContainer {
+    box-shadow: none;
+    background-color: #f5f5f5;
+}
+
+div>ol>li {
+    color: goldenrod;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px 3px 5px 3px;
+    text-align: left;
+}
+
+.containerlink {
+    color: goldenrod;
+}
+
+footer {
+    background-color: ghostwhite;
+    height: 300px;
+    display: flex;
+    align-content: flex-end;
+}
+
+footer>ul>li {
+    list-style: none;
+}
